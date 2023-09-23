@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+
+     <!--   <item
+            android:id="@+id/nav_transaction"
+            android:title="@string/nav_lbl_transaction"
+            android:icon="@drawable/ic_trans_rec"/>
+     -->
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_lbl_home"
+            android:icon="@drawable/ic_home"/>
+       <!-- <item
+            android:id="@+id/nav_profile"
+            android:title="PROFILE"
+            android:icon="@drawable/ic_profile"/> -->
+        <item
+            android:id="@+id/nav_dptc"
+            android:title="@string/nav_lbl_dptc"
+            android:icon="@drawable/ic_dptc"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/nav_lbl_about"
+            android:icon="@drawable/ic_about"/>
+
+        <!--<item
+            android:id="@+id/nav_settings"
+            android:title="@string/nav_lbl_settings"
+            android:icon="@drawable/ic_settings"/> -->
+
+        <item
+            android:id="@+id/nav_forgotpassword"
+            android:title="CHANGE PASSWORD"
+            android:icon="@drawable/ic_change_pass"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="LOGOUT"
+            android:icon="@drawable/ic_logout"/>
+
+
+
+    </group>
+<!--
+    <item
+    android:id="@+id/nav_settings"
+    android:title="@string/nav_lbl_settings"
+    android:icon="@drawable/ic_settings">
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/change_username"
+                    android:title="@string/nav_lbl_settings1"
+                   />
+
+                <item
+                    android:id="@+id/nav_change_pword"
+                    android:title="@string/nav_lbl_settings2"
+                   />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/nav_lbl_settings3"
+                   />
+
+
+
+            </group>
+
+        </menu>
+
+    </item> !-->
+
+</menu>

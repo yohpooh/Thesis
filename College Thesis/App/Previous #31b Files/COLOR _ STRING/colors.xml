@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- //GRAYSCALE// -->
+    <color name="Gainsboro">#dcdcdc</color>
+    <color name="LightGrey">#d3d3d3</color>
+    <color name="Silver">#c0c0c0</color>
+    <color name="DarkGray">#a9a9a9</color>
+    <color name="Gray">#808080</color>
+    <color name="DimGray">#696969</color>
+
+    <!-- //KOBE PALLETE// -->
+    <color name="White">#ffffff</color>
+    <color name="BeginningoftheEnd">#5A0F80</color>
+    <color name="SayMyName">#5A0F80</color>
+    <color name="Tripp">#801BB3</color>
+    <color name="LicensetoChill">#C28CDE</color>
+    <color name="decibellYellow">#FFD70B</color>
+
+    <!-- // VAW PALLETE // -->
+    <color name="Plain">#ffffff</color>
+    <color name="Orange">#F58024</color>
+    <color name="Violet">#733381</color>
+    <color name="Orange31b">#FF8B41</color>
+    <color name="LightOrange31b">#CEFF9800</color>
+    <color name="brightLightOrange31b">#EEFFAC07</color>
+    <color name="superLightOrange31b">#ffb347</color>
+
+    <!-- // SPLIT SCREEN PALETTE// -->
+    <color name="colorPrimary">#FFB20C</color>
+    <color name="colorPrimaryDark">#DE9B0B</color>
+    <color name="colorAccent">#FFB20C</color>
+    <color name="textHeadline">#434343</color>
+    <color name="textDescription">#686868</color>
+    <color name="lightGrey">#EAEAEA</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- // CONTEXT DISPLAY PALETTE// -->
+    <color name="SuperDark">#333333</color>
+    <color name="Dark">#414141</color>
+    <color name="LightDark">#777777</color>
+    <color name="Light">#a8a8a8</color>
+    <color name="SuperLight">#cfcfcf</color>
+    <color name="SuperLight_Light">#ececec</color>
+
+    <!-- // PASTEL ORANGE PALETTE// -->
+    <color name="Orange_Light">#ffcf62</color>
+    <color name="Orange_Dim">#f2c894</color>
+    <color name="Orange_Mid">#ffdf9e</color>
+
+    <!-- // EMERGENCY PALETTE// -->
+    <color name="code_red">#ce2029</color>
+    <color name="code_lightred">#ff4f4b</color>
+    <color name="code_dark">#a61414</color>
+    <color name="code_darkRed">#8c0303</color>
+    <color name="code_light">#e3dac9</color>
+    <color name="code_darkLight">#bda891</color>
+
+
+</resources>

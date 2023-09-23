@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- //GRAYSCALE// -->
+    <color name="Gainsboro">#dcdcdc</color>
+    <color name="LightGrey">#d3d3d3</color>
+    <color name="DarkGray">#a9a9a9</color>
+    <color name="Gray">#808080</color>
+    <color name="DimGray">#696969</color>
+
+    <!-- //KOBE PALLETE// -->
+    <color name="White">#ffffff</color>
+    <color name="BeginningoftheEnd">#5A0F80</color>
+    <color name="SayMyName">#5A0F80</color>
+    <color name="LicensetoChill">#C28CDE</color>
+
+    <!-- // VAW PALLETE // -->
+    <color name="Violet">#733381</color>
+    <color name="LightOrange31b">#CEFF9800</color>
+    <color name="superLightOrange31b">#ffb347</color>
+
+    <!-- // SPLIT SCREEN PALETTE// -->
+    <color name="transparent">#00000000</color>
+
+    <!-- // CONTEXT DISPLAY PALETTE// -->
+    <color name="Dark">#414141</color>
+    <color name="LightDark">#777777</color>
+    <color name="Light">#a8a8a8</color>
+    <color name="SuperLight">#cfcfcf</color>
+    <color name="SuperLight_Light">#ececec</color>
+
+    <!-- // PASTEL ORANGE PALETTE// -->
+    <color name="Orange_Dim">#f2c894</color>
+
+    <!-- // EMERGENCY PALETTE// -->
+    <color name="code_red">#ce2029</color>
+    <color name="code_dark">#a61414</color>
+    <color name="code_darkLight">#bda891</color>
+
+    <!-- // FONT PALETTE// -->
+    <color name="slight_black">#242526</color>
+    <color name="mid_black">#3A3B3C</color>
+    <color name="slight_white">#B0B3B8</color>
+    <color name="the_white">#E4E6EB</color>
+
+</resources>

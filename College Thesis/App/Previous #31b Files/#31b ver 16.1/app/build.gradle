@@ -1,0 +1,77 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.example.a31b"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.android.material:material:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //Material Design
+    implementation 'com.google.android.material:material:<version>'
+
+    //Step Views
+    //implementation 'com.shuhart.stepview:stepview:1.2.6'
+    //implementation 'com.shuhart.stepview:stepview:1.5.1'
+    //implementation 'com.github.User:Repo:Tag'
+
+    //firebase
+    implementation 'com.google.firebase:firebase-database:20.0.3'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+
+
+    //verification
+    implementation files('libs/activation.jar')
+    implementation files('libs/additionnal.jar')
+    implementation files('libs/mail.jar')
+    //implementation files('libs\\javax.mail.jar')
+    //implementation files('libs\\javax.mail-api-1.6.2.jar')
+    //testImplementation 'junit:junit:4.12'
+    //implementation 'com.sun.mail:android-mail:1.6.0'
+    //implementation 'javax.mail:javax.mail-api:1.5.3'
+    //implementation files('libs\\\\javax.mail.jar')
+    //implementation files('libs\\\\javax.mail-api-1.6.2.jar')
+
+    //sinch sdk
+    //implementation(name:'sinch-android-rtc', version:'+', ext:'aar')
+
+    //user profile
+    //implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+
+}

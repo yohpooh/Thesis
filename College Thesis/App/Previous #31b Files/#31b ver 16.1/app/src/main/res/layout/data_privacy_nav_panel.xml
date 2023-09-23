@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_editor_absoluteX="1dp"
+    app:layout_editor_absoluteY="1dp"
+    tools:context=".data_privacy_nav_panel">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".data_privacy_signUp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/btnBack_DPTCm"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#00FFFFFF"
+                app:fabCustomSize="40dp"
+                app:icon="@drawable/ic_back_35dp"
+                app:iconTint="@color/white"
+                />
+
+            //31b logo
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-25dp"
+                android:columnCount="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/LicensetoChill"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_round_remove_circle_24" />
+
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:src="@drawable/main_logo_alone" />
+
+
+            </GridLayout>
+            //31b logo end
+
+            //header st
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:columnCount="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_marginTop="85dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:shadowColor="@color/DimGray"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="@string/data_privacy_tnc2"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </GridLayout>
+            //header end
+
+
+            //type of abuse
+
+            <!-- <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginStart="92dp"
+                 android:layout_marginTop="85dp"
+                 android:shadowColor="@color/DimGray"
+                 android:shadowDx="2"
+                 android:shadowDy="5"
+                 android:shadowRadius="5"
+                 android:text="@string/abuse_type_mm"
+                 android:textAlignment="center"
+                 android:textColor="@color/white"
+                 android:textSize="22sp"
+                 android:textStyle="bold" />  !-->
+
+
+            //victim form start
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/white"
+                android:elevation="7dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/data_privacy_tnc1"
+                        android:textColor="@color/Dark"
+                        android:textSize="19sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc3"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/data_privacy_tnc4"
+                        android:textColor="@color/Dark"
+                        android:textSize="19sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc5"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/data_privacy_tnc6"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/Dark"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc7"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/data_privacy_tnc17"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/Dark"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc18"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc18a"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc18b"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/data_privacy_tnc19"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/Dark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc20"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc21"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc23"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc24"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc25"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc26"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc27"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/data_privacy_tnc28"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/Dark"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc29"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc30"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/data_privacy_tnc31a"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/Dark"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc31"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc32"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc33"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc34"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc35"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc36"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc37"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/data_privacy_tnc38"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/Dark"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc39"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc40"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc41"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/data_privacy_tnc42"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/Dark"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc43"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc44"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                //start of terms and conditions
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/data_privacy_tnc8"
+                        android:textColor="@color/Dark"
+                        android:textSize="19sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc9"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc10"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc10"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc11"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc12"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc13"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc14"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc15"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+
+                        android:fontFamily="sans-serif-medium"
+                        android:justificationMode="inter_word"
+                        android:text="@string/data_privacy_tnc16"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/LightDark"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnBack_DPTC"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/LightOrange31b"
+                    android:padding="12dp"
+                    android:text="Back"
+                    android:textStyle="bold"
+                    app:cornerRadius="50dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

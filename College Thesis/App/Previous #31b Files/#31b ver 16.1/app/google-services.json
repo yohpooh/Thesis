@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "433674578190",
+    "firebase_url": "https://bemergency-2b09a-default-rtdb.firebaseio.com",
+    "project_id": "bemergency-2b09a",
+    "storage_bucket": "bemergency-2b09a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433674578190:android:c1d48cdd5fdb782f380f5f",
+        "android_client_info": {
+          "package_name": "com.example.a31b"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433674578190-km5flrl1bs2j0ej452npri3nmsniiq9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwnoF6JKA37jtIB7tPyOoWmKUYcDtM498"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433674578190-km5flrl1bs2j0ej452npri3nmsniiq9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

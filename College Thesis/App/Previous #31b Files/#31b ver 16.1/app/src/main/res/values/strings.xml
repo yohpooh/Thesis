@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">#31b</string>
+
+    <string-array name="Locations">
+        <item>Please Choose A Location</item>
+        <item>LUBAO</item>
+        <item>PORAC</item>
+        <item>SANTA_RITA</item>
+        <item>FLORIDABLANCA</item>
+        <item>SASMUAN</item>
+        <item>GUAGUA</item>
+
+    </string-array>
+
+    <string name="info_board_click">CLICK HERE TO VIEW MORE RELATED INFORMATION <a href="https://pcw.gov.ph/">https://pcw.gov.ph/</a></string>
+    <string name="pcw"> <a href="https://pcw.gov.ph/vaw-faqs/">See more...</a></string>
+    <string name="dswd"> <a href="https://www.facebook.com/dswdfo3/">https://www.facebook.com/dswdfo3/</a></string>
+    <string name="jrg"> <a href="jrgclinic@gmail.com">jrgclinic@gmail.com</a></string>
+    <string name="amt"> <a href="amtpsychologicalconsultancy@gmail.com">amtpsychologicalconsultancy@gmail.com</a></string>
+    <string name="argao"> <a href="appointment@argaocenter.com">appointment@argaocenter.com</a></string>
+    <string name="shelter"> <a href="shelterofgoodwill@gmail.com">shelterofgoodwill@gmail.com</a></string>
+    <string name="dswdhavenro3"> <a href="dswdhaven_ro3@yahoo.com">dswdhaven_ro3@yahoo.com</a></string>
+    <string name="pmhafb"> <a href="https://www.facebook.com/PMHAofficial/">https://www.facebook.com/PMHAofficial/</a></string>
+    <string name="adsemail"> <a href="adspfb@gmail.com">adspfb@gmail.com</a></string>
+    <string name="adsfbpage"> <a href="https://www.facebook.com/ADSPpage/">https://www.facebook.com/ADSPpage/</a></string>
+    <string name="authorizationMessage">\t\t\t\t\t\t"I hereby fully authorize this application (#31b Emergency App) to collect, store, access and process my personal data, that i willingly provided, all moderated in accordance to the data privacy act of 2012."</string>
+    <string name="authorizationMessage_tg">\t\t\t\t\t\t"Aking pinahihintulutan ang aplikasyon na ito (#31b Emergency App) na kolektahin, pangalagaan, gamitin at i-proseso ang aking personal na impormasyon, na aking kusang pinag kaloob, na na-aayon sa batas na 'data privacy act of 2012'."</string>
+    <string name="complaint_qrcode"> \t\t\tThe system recognized your complaint. Local authorities have been advised with your situation. You may present this reference number provided by the system to any partner local stations"</string>
+
+
+    <string name="otp_ver_code">Enter the One-Time Password (OTP) Code Verification sent to your email account.</string>
+    <string name="mm_starita_add">Government office, National Road, Santa Rita, 2002 2J56+FH Santa Rita, Pampanga</string>
+    <string name="mm_floridab_add">National Highway, San Jose St, Floridablanca, Pampanga 2006</string>
+    <string name="mm_guagua_add">Municipal Hall Building, Gil J Puyat Avenue, Plaza Burgoz, Guagua, Pampanga</string>
+    <string name="mm_lubao_add">Jose Abad Santos Avenue (JASA) Road, Lubao, Pampanga 2005</string>
+
+    <string name="change_pass">Kindly fill up with correct information to change your password.</string>
+    <string name="change_username">Kindly fill up with correct information to change your username.</string>
+    <string name="auth_cpass">To proceed in changing your password, please fill in the required fields.</string>
+
+    <string name="data_privacy_signUp"><u>I Agree to the Data Privacy Terms and Conditions</u></string>
+    <string name="data_privacy_tnc1">DATA PRIVACY TERMS &amp; CONDITIONS</string>
+    <string name="data_privacy_tnc2">#31b EMERGENCY MOBILE APP</string>
+    <string name="data_privacy_tnc3">In order to use the application or to create and register a #31b User Account, you\'ll need to agree to the Terms below. </string>
+
+    <string name="data_privacy_tnc4">DATA PRIVACY POLICY</string>
+    <string name="data_privacy_tnc5">#31b Emergency Communication Platform in a Mobile Application (hereinafter referred to as “the C02-DevGroup”) values and respects your right to privacy. We are committed to protect the privacy of our mobile app users. We will only collect, record, store, process, and use your personal information in accordance with the Data Privacy Act of 2012, its Implementing Rules and Regulations, in the issuance by the National Privacy Commission, and other pertinent laws.</string>
+    <string name="data_privacy_tnc6">PURPOSE OF THIS PRIVACY POLICY</string>
+    <string name="data_privacy_tnc7">This Privacy Policy informs you of updates in our corporate policies regarding the collection, use, storage, disclosure, and disposal of personal information we receive and collect from our clients/users, and any individual who communicates, raises inquiries and concerns, as well as transacts with us through our authorized corresponding communication platform. We will only use your data based on the limitations set by this policy. </string>
+
+    <string name="data_privacy_tnc8">TERMS AND CONDITIONS OF USE</string>
+    <string name="data_privacy_tnc9">By accessing this site, you agree to the following terms and conditions:</string>
+    <string name="data_privacy_tnc10">#31b Emergency Communication Platform in a Mobile Application (referred as “C02-DevGroup”) maintains this application to provide you with information about its services and to facilitate communication with its affiliate local authority\'s offices and health monitoring service providers. </string>
+    <string name="data_privacy_tnc11">The CO2-DevGroup requires all users of the application to adhere to the following rules and regulations:</string>
+    <string name="data_privacy_tnc12">\u25CF By accessing the application you indicate your acknowledgment and acceptance of these terms and conditions. From time to time we may revise these terms and conditions. </string>
+    <string name="data_privacy_tnc13">\u25CF The CO2-DevGroup owns the text and images, videos appearing on this application or others as indicated.</string>
+    <string name="data_privacy_tnc14">\u25CF Not all actions and information provided in the application may or will reflect on the developers that made it.  </string>
+    <string name="data_privacy_tnc15">We will use our best efforts to include accurate and up to date information on the Mobile Application, but we make no warranties or representations as to the accuracy of the information. You agree that all access and use of the Application and its contents is at your own risk. By using the Site, you acknowledge that we specifically disclaim any liability for any damages arising out of or in any way connected with your access to our use of the Site. </string>
+    <string name="data_privacy_tnc16">You agree that your use of this Application shall be governed by Philippine laws and agree that venue of any relevant suit shall be located in the proper courts of the Philippines.</string>
+
+    <string name="data_privacy_tnc17">PERSONAL INFORMATION SECURITY</string>
+    <string name="data_privacy_tnc18"><b>Personal Information</b> refers to any information, whether recorded in a material form or not, from which the identity of an individual is apparent or can be reasonably and directly ascertained by the entity holding the information, or when put together with other information would directly and certainly identify an individual.</string>
+    <string name="data_privacy_tnc18a"> <b>Sensitive Personal Information</b> is any attribute of your personal information that can discriminate, qualify, or classify you such as your age, date of birth, marital status, government-issued identification numbers, account numbers, and financial information.</string>
+    <string name="data_privacy_tnc18b"> <b>Privileged Information</b> is any and all forms of information which, under the Rules of Court and other pertinent laws, constitute privileged communication. </string>
+
+    <string name="data_privacy_tnc19">Under the Data Privacy Act of 2012, you have the following rights: </string>
+    <string name="data_privacy_tnc20"><b>1.</b> <b>Right to be informed</b> – you may request the details as to how your personal information is being processed or have been processed;</string>
+    <string name="data_privacy_tnc21"><b>2.</b> <b>Right to access</b> – upon written request, you may demand reasonable access to your personal information, which may include the contents of your processed personal information, the manner of processing, sources where they were obtained, recipients and reason of disclosure; </string>
+    <string name="data_privacy_tnc23"><b>4.</b> <b>Right to object</b> - you may suspend, withdraw, and remove your personal information in certain further processing, upon demand;</string>
+    <string name="data_privacy_tnc24"><b>5.</b> <b>Right to data ensure</b> - based on reasonable grounds, you have the right to suspend, withdraw or order the blocking, removal or destruction of your personal data from the Application\'s filing system; </string>
+    <string name="data_privacy_tnc25"><b>6.</b> <b>Right to secure data portability</b> - you have the right to obtain your personal information in an electronic or structured format that is commonly used and allows for further use; </string>
+    <string name="data_privacy_tnc26"><b>7.</b> <b>Right to be indemnified for damages</b> - as data subject, you have every right to be indemnified for any damages sustained due to such violation of your right to privacy through inaccurate, false, unlawfully obtained or unauthorized use of your information; and </string>
+    <string name="data_privacy_tnc27"><b>8.</b> <b>Right to file a complaint</b> - you may file your complaint or any concerns with our legal compliance division: <i>31b.emergency@gmail.com</i></string>
+
+
+    <string name="data_privacy_tnc28">COLLECTION OF PERSONAL INFORMATION</string>
+    <string name="data_privacy_tnc29">We will only collect your personal information if you voluntarily submit the information to us. If you choose not to submit your personal information to us or subsequently withdraw your consent to our use of your personal information, we may not be able to adequately respond to your inquiries or avail of our application featured services.</string>
+    <string name="data_privacy_tnc30">When we receive data from our users/clients about personal data and sensitive described information, admin or other individuals, the user/client is responsible for ensuring that any such data is transferred to us in compliance with applicable data protection laws.</string>
+
+
+    <string name="data_privacy_tnc31a">USE OF THE PERSONAL DATA</string>
+    <string name="data_privacy_tnc31">The purposes for which we use Personal Data are as follows: </string>
+    <string name="data_privacy_tnc32"><b>1.</b>To provide quick respond to inquiries and complaint reports. For this, we use admin and user service data, transactions, report forms, and device data. </string>
+    <string name="data_privacy_tnc33"><b>2.</b>To make our Application intuitive and easy to use. For this, we use the gathered device data. It is necessary for our legitimate interests to monitor how our application is used to help us improve the layout and information available on our emergency app and provide a better service to our users. </string>
+    <string name="data_privacy_tnc34"><b>3.</b>To protect the security and effective functioning of our application and information technology systems. For this, we use gathered service data, registration data, transaction data, and device data. It is necessary for our legitimate interests to monitor how our application is used, together with the monitoring of other crimes and the misuse of our application. This helps us to ensure that you can safely use our emergency mobile app. </string>
+    <string name="data_privacy_tnc35"><b>4.</b>To address compliance and legal obligations, such as complying with the Data Privacy Policy obligations, checking the identity of new users and to prevent identity fraud. For this, we use compliance data, admin and user service data, registration data, transaction data, and device data. </string>
+    <string name="data_privacy_tnc36">If you submit personal information for publication on our website, we will publish and otherwise use that information in accordance with the permission given to us.</string>
+    <string name="data_privacy_tnc37">We will not, without your express consent, supply your personal information to any third party for the purpose of their or any other third party’s direct usage.</string>
+
+    <string name="data_privacy_tnc38">SHARING OF PERSONAL DATA</string>
+    <string name="data_privacy_tnc39">We may share Personal Data with the following categories and recipients:</string>
+    <string name="data_privacy_tnc40"><b>1.</b> <b>Affiliates and Service Providers</b>: If requested and/or approved by the user or prospective user, we will share personal data with our trusted affiliate legal authorities, social services and health care service providers, in order to provide you with adequate services in relation to our assistance service and those of our affiliates and service providers. </string>
+    <string name="data_privacy_tnc41"><b>2.</b> <b>Mandatory disclosures and Legal Claims</b>: We share Personal Data in order to comply with the Applications moral and service obligations, comply with any Data Privacy Act of 2012, or other legal process, to comply with a request from regulators, governmental request or any other legally enforceable demand. We also share Personal Data to establish or protect our legal rights, property, or safety, or the rights, property, or safety of others, or to defend against legal claims.</string>
+
+    <string name="data_privacy_tnc42">DATA RETENTION AND DISPOSAL</string>
+    <string name="data_privacy_tnc43">We typically retain Personal Data related to application service activities for as long as you accept on-going transactions from us, and we will securely delete such data in accordance with applicable laws upon request. </string>
+    <string name="data_privacy_tnc44">For Personal Data that we collect and process for other purposes, we will typically retain such Personal Data for as long as it is necessary to fulfill the purposes outlined in the Data Privacy Policy, as well as the Terms of Use. Deletion of such data may be done at any time upon your request.</string>
+
+    <string name="lbl_select_abuse">(PUMILI NG ANGKOP NA URI NG ABUSO)</string>
+
+    <string name="dswd_lb1">DEPARTMENT OF SOCIAL WELFARE AND DEVELOPMENT (DSWD)</string>
+
+    <string name="soc_ser_s">We provide the <font color='#C28CDE'>BEST ASSISTANCE</font> we know,</string>
+    <string name="soc_ser_s1">because <font color='#C28CDE'>We CARE</font> about your <font color='#C28CDE'>HEALTH.</font></string>
+
+    <string name="health_care_h">REHABILITATION FACILITIES</string>
+    <string name="health_care_h2">COUNSELLING CLINICS</string>
+    <string name="health_care_h4">MENTAL HEALTH CLINICS</string>
+    <string name="health_care_h6">SUPPORT GROUPS</string>
+
+    <string name="info_board_i">INFORMATION BOARD</string>
+    <string name="info_board_i3">HOW TO REPORT AN ABUSE? </string>
+    <string name="info_board_i4">Be aware of the "Warning Signs" of Abuse. Learn Guidelines on How to Report and Fight Abuse.</string>
+    <string name="info_board_i5">WHAT IS AN ABUSE?</string>
+    <string name="info_board_i7">WHAT ARE THE FOUR (4) TYPES OF ABUSE?</string>
+
+    <string name="add_serv_a">THE OTHER SERVICES OFFERED</string>
+    <string name="add_serv_a1">These are the <font color='#C28CDE'>Additional Services</font> that can help you</string>
+    <string name="add_serv_a2">because <font color='#C28CDE'>We CARE</font> about your <font color='#C28CDE'>HEALTH &amp; SAFETY.</font></string>
+    <string name="add_serv_a3">DEPARTMENT OF HEALTH (DOH) LOCAL OFFICES</string>
+    <string name="add_serv_a4">DOH LOCAL OFFICE HOTLINES</string>
+    <string name="add_serv_a5">WOMEN AND CHILDREN PROTECTION DESK (WCPD) OFFICES</string>
+    <string name="add_serv_a6">WCPD LOCAL OFFICE HOTLINES</string>
+    <string name="add_serv_a7">BARANGAY LOCAL PROTECTION ORDER</string>
+    <string name="add_serv_a8">BARANGAY PROTECTION ORDER HOTLINES</string>
+
+    <string name="info_card_c"><b>1. </b>PHYSICAL ABUSE </string>
+    <string name="info_card_c1">\t\tR.A. 9262 defines \'PHYSICAL ABUSE\' (Physical Violence) as acts that include bodily or physical harm (battery).Causing/threatening/attempting to cause physical harm to the woman or her child. Placing the woman or her child in fear of imminent physical harm.</string>
+    <string name="info_card_c2">swipe left to see more..</string>
+
+    <string name="nav_lbl_home">HOME</string>
+    <string name="nav_lbl_dptc">DATA PRIVACY POLICY</string>
+    <string name="nav_lbl_about">ABOUT</string>
+
+    <string name="nav_side_1">BREAK FREE.</string>
+    <string name="nav_side_2">You have the <b><font color='#CEFF9800'>STRENGTH</font></b> to <b><font color='#C28CDE'>BREAK</font></b> the <b><font color='#733381'>CYCLE of ABUSE</font></b>.</string>
+
+    <string name="emCall_pop_up">Please Select the Municipality to call</string>
+    <string name="emCall_pop_up_1">(Pumili ng Munisipalidad na nais tawagan)</string>
+    <string name="emergency_stations_hotlines">EMERGENCY STATIONS \tHOTLINES</string>
+    <string name="file_an_abuse_report">FILE AN ABUSE REPORT</string>
+    <string name="_31b_emergency_app">#31b EMERGENCY APP</string>
+
+    <string name="call_lbl1">INCOMING CALL...</string>
+    <string name="hc1">Doctors\' Offices Building No. 598, Sto. Entierro St Barangay, Santo Cristo Rd, Angeles, 2009 Pampanga</string>
+    <string name="hc2">3rd floor ALECEL Building, MacArthur Hwy, Telabastagan, San Fernando, Pampanga</string>
+    <string name="h3">Magalang Ave, Angeles, 2009 Pampanga</string>
+    <string name="h4">Km 73 B2 Jose Abad Santos Ave., St Vincent Subd., Brgy. San Vicente, Bacolor, Pampanga, Philippines. 2001 Bacolor, Philippines</string>
+    <string name="h5">2nd Floor Argao Bdlg., A. Consunji St., Queensborough Subd., San Jose, City of San Fernando, Pampanga</string>
+    <string name="h6">Jose Abad Santos Ave, Guagua, Pampanga</string>
+    <string name="h7">32-7 Flora Ave. Extn,, Nepo Center, Angeles, 2009 Pampanga</string>
+    <string name="h8">PSAU Compound, Bliss. 1, Purok 7, San. Vicente, Magalang,. Pampanga 2011</string>
+    <string name="h9">Sabong St. Purok 1, Sta. Cruz 2011 Magalang, Philippines</string>
+    <string name="h10">ADSP is a support group community and a mental health initiative.</string>
+
+    <string name="copyright">"Copyright \u00a9 2021 #31b Emergency App by C02 DevGroup"</string>
+    <string name="about">The #31b Emergency Mobile App is an application that is free communication platform for the victims and witnesses of abuse, that is user-friendly, with much better assistance and with immediate response, with the help and support from the local authorities</string>
+    <string name="about1">The #31b Emergency App would be able to help decrease the escalating rate of domestic abuse and variety of physical, mental, economic and sexual abuse that is happening in the Philippines. Through the help of data analytics, it will be easier to identify the places that need monitoring and immediate assistance, regarding the abuse cases happening in the certain local area. It would also be a big help to promote awareness to the local residents.
+ </string>
+
+    <string name="developers">ALONZO, ARLENE GRACE C.</string>
+    <string name="developers1">BELLEZA, RAM RAINIER M. </string>
+    <string name="developers2">DELA CRUZ, DIANE LOUISE M.</string>
+    <string name="developers3">MAGAT, MHARK STEPHEN P.</string>
+    <string name="developers4">MAÑALAC, GERALD O.</string>
+    <string name="developers5">PINEDA, JOHN CARLO C.</string>
+    <string name="developers6">SORIANO, JUSTINE G.</string>
+    <string name="account_details_lbl"><u>ACCOUNT DETAILS</u></string>
+    <string name="personal_details_lbl"><u>PERSONAL INFORMATIONS</u></string>
+</resources>

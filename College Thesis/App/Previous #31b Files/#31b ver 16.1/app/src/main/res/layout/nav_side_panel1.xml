@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/white"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/lytBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="140dp"
+        android:background="@color/LicensetoChill">
+
+        <TextView
+            android:id="@+id/fullnameDisplay_navDrawer"
+            android:layout_width="244dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@color/SayMyName"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/futur"
+        android:text="@string/nav_side_1"
+        android:textColor="@color/Dark"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/lbl_strength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/nav_side_2"
+        android:textColor="@color/Dark"
+        android:textSize="10sp"
+        android:textStyle="italic"></TextView>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/main_logo_alone">
+
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/ic_chain">
+
+    </ImageView>
+
+
+</RelativeLayout>

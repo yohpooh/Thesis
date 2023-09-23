@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_editor_absoluteX="1dp"
+    app:layout_editor_absoluteY="1dp"
+    tools:context=".comp_form1_pa">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".comp_form_1_PA">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--
+           <Button
+                android:id="@+id/btnBack_comp_form1_pa"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#00FFFFFF"
+                app:fabCustomSize="40dp"
+                app:icon="@drawable/ic_back_35dp"
+                app:iconTint="@color/LicensetoChill"
+                /> !-->
+
+            //31b logo
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:columnCount="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true"
+                    android:background="@color/LightOrange31b">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="8dp"
+                        android:shadowColor="@color/DimGray"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="#31b EMERGENCY APP"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="-8dp"
+                        android:layout_weight="2"
+                        android:shadowColor="@color/DimGray"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="ABUSE COMPLAINT FORM"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:shadowColor="@color/slight_black"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="PHYSICAL ABUSE"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            //31b logo end
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/main_logo_alone" />
+
+            </LinearLayout>
+
+
+
+
+            //victim form start
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/white"
+                android:elevation="7dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txtVictimInfo_comp_form1_pa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="VICTIM'S INFORMATION"
+                    android:textAllCaps="false"
+                    android:textColor="@color/mid_black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="60dp"
+                    android:text="REFERENCE NO."
+                    android:textAllCaps="false"
+                    android:textColor="@color/mid_black"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/refnum_pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="60dp"
+                    android:text="REFERENCE NO."
+                    android:textAllCaps="false"
+                    android:textColor="@color/mid_black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/edVicName_comp_form1_pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="NAME OF VICTIM"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+                <EditText
+                    android:id="@+id/edtVicName_comp_form1_pa"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="Pangalan ng Biktima"
+                    android:inputType="textPersonName" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtVicGender_comp_form1_pa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SEX"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtVicAge_comp_form1_pa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="5dp"
+                        android:text="AGE"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtVicGender_comp_form1_pa"
+                        android:layout_width="170dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Kasarian"
+                        android:inputType="textPersonName" />
+
+
+                    <EditText
+                        android:id="@+id/edtVicAge_comp_form1_pa"
+                        android:layout_width="185dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Edad"
+                        android:inputType="number" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtVicCon_comp_form1_pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="CONTACT NUMBER"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/edtVicCon_comp_form1_pa"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="Numero na maaring tawagan"
+                    android:inputType="phone"
+                    android:maxLength="11" />
+
+                <TextView
+                    android:id="@+id/txtVicAdd_comp_form1_pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="ADDRESS"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/edtVicAdd_comp_form1_pa"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="(Purok/Kalye, Barangay, Munisipalidad)"
+                    android:inputType="textPersonName" />
+                //victim form end
+
+
+                //offender form start
+
+                <TextView
+                    android:id="@+id/txtOff_comp_form1_pa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="OFFENDER'S INFORMATION"
+                    android:textAllCaps="false"
+                    android:textColor="@color/mid_black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/edOffName_comp_form1_pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="NAME OF OFFENDER"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+                <EditText
+                    android:id="@+id/edtOffName_comp_form1_pa"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="Pangalan ng Nang-Abuso"
+                    android:inputType="textPersonName" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtOffGender_comp_form1_pa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SEX"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtOffAge_comp_form1_pa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="5dp"
+                        android:text="AGE"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtOffGender_comp_form1_pa"
+                        android:layout_width="170dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Kasarian"
+                        android:inputType="textPersonName" />
+
+
+                    <EditText
+                        android:id="@+id/edtOffAge_comp_form1_pa"
+                        android:layout_width="185dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Edad"
+                        android:inputType="number" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtOffAdd_comp_form1_pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="ADDRESS"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/edtOffAdd_comp_form1_pa"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="(Purok/Kalye, Barangay, Munisipalidad)"
+                    android:inputType="textPersonName" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtConditionOff_comp_form1_pa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CONDITION/STATE"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtConditionOff_comp_form1_pa"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:hint="(eg. drunk,in drugs, mentally ill..)"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+
+                //incident description
+
+                <TextView
+                    android:id="@+id/txtDes_comp_form1_pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:text="NATURE OF COMPLAINT"
+                    android:textAllCaps="false"
+                    android:textColor="@color/mid_black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/edtDes_comp_form1_pa"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/custom_input"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint="petsa at oras ng nangyaring insidente?"
+                    android:inputType="textPersonName"
+                    android:textColorHint="@color/Gray" />
+
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Saan ang Lugar na pinangyarihan ng insidente?"
+                    android:textColor="@color/mid_black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/custom_input"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinner_pa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnNext_offender_1"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/LightOrange31b"
+                    android:elevation="15dp"
+                    android:padding="12dp"
+                    android:text="Next"
+                    android:textStyle="bold"
+                    app:cornerRadius="50dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

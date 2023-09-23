@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context=".emergency_hotlines_pg1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_select_municipality"
+        android:layout_centerHorizontal="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:paddingTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:text="SELECT YOUR MUNICIPALITY"
+            android:textColor="@color/LightOrange31b"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_notes"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="140dp"
+            android:text="To show the corresponding station hotlines"
+            android:textColor="@color/Gray"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack_hotline_page1"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        app:fabCustomSize="40dp"
+        app:icon="@drawable/ic_back_35dp"
+        app:iconTint="@color/LicensetoChill" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="4dp"
+            android:columnCount="2">
+
+            <LinearLayout
+                android:id="@+id/sta_rita_opt"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_columnWeight="1"
+                android:background="@drawable/mm_button"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/mm_starita" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="MUNICIPALITY OF STA. RITA"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/porac_opt"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_columnWeight="1"
+                android:background="@drawable/mm_button"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/mm_porac" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="MUNICIPALITY OF PORAC"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/florida_opt"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_columnWeight="1"
+                android:background="@drawable/mm_button"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/mn_floridab" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="9dp"
+                    android:text="MUNICIPALITY OF FLORIDABLANCA"
+                    android:textAlignment="center"
+                    android:textSize="11.8sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/guagua_opt"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_columnWeight="3"
+                android:background="@drawable/mm_button"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/mn_guagua"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5.5dp"
+                    android:text="MUNICIPALITY OF GUAGUA"
+                    android:textAlignment="center"
+                    android:textSize="11.8sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lubao_opt"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_columnWeight="1"
+                android:background="@drawable/mm_button"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/mm_lubao" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="MUNICIPALITY OF LUBAO"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/sasmuan_opt"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_columnWeight="3"
+                android:background="@drawable/mm_button"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/mm_sasmuan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="8dp"
+                    android:text="MUNICIPALITY OF SASMUAN"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

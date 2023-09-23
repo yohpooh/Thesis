@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".health_care_support">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_editor_absoluteX="1dp"
+        app:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".health_care_support">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnBack_soc_ser_d"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#00FFFFFF"
+                app:fabCustomSize="40dp"
+                app:icon="@drawable/ic_back_35dp"
+                app:iconTint="@color/LicensetoChill"
+                />
+
+            //header
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_marginTop="80dp"
+                    android:background="@color/LightOrange31b"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/support_cc" />
+
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:shadowColor="@color/DimGray"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="2"
+                        android:text="@string/health_care_h6"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </GridLayout>
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginRight="20dp"
+                android:elevation="7dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/LightGrey"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Anxiety and Depression Support Philippines"
+                        android:textAlignment="center"
+                        android:textColor="@color/Violet"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/h10"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/Gray"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <GridLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="0dp"
+               android:columnCount="2">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_columnWeight="1"
+                   android:layout_gravity="fill_horizontal"
+                   android:layout_marginTop="10dp"
+                   android:gravity="left"
+                   android:orientation="horizontal">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="8dp"
+                       android:layout_marginTop="5dp"
+                       android:text="FACEBOOK PAGE"
+                       android:textAlignment="center"
+                       android:textColor="@color/DimGray"
+                       android:textSize="15sp"
+                       android:textStyle="bold" />
+               </LinearLayout>
+           </GridLayout>
+
+               <GridLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:columnCount="2">
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="30dp"
+                       android:layout_columnWeight="1"
+                       android:layout_gravity="fill_horizontal"
+                       android:layout_marginTop="0dp"
+                       android:gravity="left"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="15dp"
+                           android:layout_marginTop="5dp"
+                           android:text="https://www.facebook.com/ADSPpage/"
+                           android:textAlignment="center"
+                           android:textColor="@color/Gray"
+                           android:textSize="15sp"
+                           android:textStyle="italic" />
+                   </LinearLayout>
+               </GridLayout>
+
+               <GridLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="0dp"
+                   android:columnCount="2">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_columnWeight="1"
+                       android:layout_gravity="fill_horizontal"
+                       android:layout_marginTop="10dp"
+                       android:gravity="left"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="8dp"
+                           android:layout_marginTop="5dp"
+                           android:text="EMAIL DIRECTORY"
+                           android:textAlignment="center"
+                           android:textColor="@color/DimGray"
+                           android:textSize="15sp"
+                           android:textStyle="bold" />
+                   </LinearLayout>
+               </GridLayout>
+
+               <GridLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:columnCount="2">
+
+                   <LinearLayout
+                       android:layout_width="0dp"
+                       android:layout_height="30dp"
+                       android:layout_columnWeight="1"
+                       android:layout_gravity="fill_horizontal"
+                       android:layout_marginTop="0dp"
+                       android:gravity="left"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="15dp"
+                           android:layout_marginTop="5dp"
+                           android:text="adspfb@gmail.com"
+                           android:textAlignment="center"
+                           android:textColor="@color/Gray"
+                           android:textSize="15sp"
+                           android:textStyle="italic" />
+                   </LinearLayout>
+               </GridLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/LightGrey"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Philippine Mental Health Association (PMHA)"
+                        android:textAlignment="center"
+                        android:textColor="@color/Violet"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="5dp"
+                        android:text="The Philippine Mental Health Association (PMHA) is an organization that premier mental health care."
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/Gray"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:columnCount="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="5dp"
+                            android:text="TELEPHONE DIRECTORY"
+                            android:textAlignment="center"
+                            android:textColor="@color/DimGray"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </GridLayout>
+
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:columnCount="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill_horizontal"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:text="+(63)917-621-1649"
+                            android:textAlignment="center"
+                            android:textColor="@color/Gray"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:columnCount="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="9dp"
+                            android:layout_marginTop="5dp"
+                            android:text="FACEBOOK PAGE"
+                            android:textAlignment="center"
+                            android:textColor="@color/DimGray"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:columnCount="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_columnWeight="1"
+                        android:layout_gravity="fill_horizontal"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="https://www.facebook.com/PMHAofficial/"
+                            android:textAlignment="center"
+                            android:textColor="@color/Gray"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </GridLayout>
+
+
+
+
+
+                <Button
+                    android:id="@+id/btnBack_soc_ser_4"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/LightOrange31b"
+                    android:padding="12dp"
+                    android:text="BACK"
+                    android:textStyle="bold"
+                    app:cornerRadius="50dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

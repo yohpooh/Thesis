@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupPage"
+    android:background="@color/White"
+    >
+
+
+    <Button
+        android:id="@+id/btnBack_signupPage"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        app:fabCustomSize="40dp"
+        app:icon="@drawable/ic_back_35dp"
+        app:iconTint="@color/LicensetoChill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/complaint_form_phase_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="SIGN UP"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/personal_details_lbl"
+                android:textSize="14sp"
+                android:textColor="@color/LightOrange31b"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/txtLastName_signupPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="(LAST NAME)"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/txtFirstName_signupPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:text="(FIRST NAME)"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/txtMiddleName_signupPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:text="(MIDDLE NAME)"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+
+        //LN-FN EDITTEXT
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:id="@+id/edtLastName_signupPage"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                />
+
+
+            <EditText
+                android:id="@+id/edtFirstName_signupPage"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:hint="First Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtMidName_signupPage"
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:hint="Middle Name"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+//MIDDLE NAME -AGE TEXTVIEW
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/txtGender_signupPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="SEX"
+            android:textSize="10sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txtAge_signupPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="135dp"
+            android:text="BIRTHDAY  (month/date/year)"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+
+ //MN-AGE EDITTEXT
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/edtGender_signupPage"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:hint="Male / Female"
+            android:inputType="textPersonName"
+            />
+
+
+        <EditText
+            android:id="@+id/edtmm_signupPage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:hint="MM"
+            android:inputType="phone"
+            android:maxLength="2"/>
+        <EditText
+            android:id="@+id/edtdd_signupPage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:hint="DD"
+            android:inputType="phone"
+            android:maxLength="2" />
+        <EditText
+            android:id="@+id/edtyy_signupPage"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:hint="YYYY"
+            android:inputType="phone"
+            android:maxLength="4" />
+
+
+    </LinearLayout>
+
+//gender
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:id="@+id/txtContactNumber_signupPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CONTACT NUMBER"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+
+            <EditText
+                android:id="@+id/edtContactNumber_signupPage"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:hint="090 - 0000 - 0000"
+                android:inputType="phone"
+                android:maxLength="11"
+                />
+
+
+        </LinearLayout>
+
+
+        //address
+        <TextView
+            android:id="@+id/txtAddress_signupPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="ADDRESS"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtAddress_signupPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:hint="Street,Barangay,Municipality"
+            android:inputType="textPostalAddress" />
+
+
+        //partition label
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/account_details_lbl"
+                android:textSize="14sp"
+                android:textColor="@color/LightOrange31b"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+
+
+        //username+password
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/txtUsername_signupPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="USERNAME"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/txtPassword_signupPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="130dp"
+                android:text="PASSWORD"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:id="@+id/edtUsername_signupPage"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="3dp"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                />
+
+
+            <EditText
+                android:id="@+id/edtPassword_signupPage"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="3dp"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+        <TextView
+            android:id="@+id/txtEmail_signupPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+        //email
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/edtEmail_signupPage"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:hint="youremail@example.com"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="left"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:id="@+id/chkAgree_signupPage"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:buttonTint="@color/Gray"
+             />
+
+
+        <TextView
+            android:id="@+id/txtDataPrivacy_signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="@string/data_privacy_signUp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    </GridLayout>
+
+
+        <Button
+            android:id="@+id/btnRegister_signupAccount"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/LightOrange31b"
+            android:padding="12dp"
+            android:layout_marginTop="5dp"
+            android:text="REGISTER ACCOUNT"
+            android:textStyle="bold"
+            app:cornerRadius="50dp" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

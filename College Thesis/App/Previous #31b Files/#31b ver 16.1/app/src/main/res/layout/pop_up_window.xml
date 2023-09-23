@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="380dp"
+        android:layout_centerInParent="true"
+        android:background="@color/LightGrey"
+        tools:context=".popUpWindow">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="VERIFICATION CODE"
+                android:textColor="@color/Dark"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/LightDark"
+                android:text="@string/otp_ver_code"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="100dp">
+
+                <EditText
+                    android:id="@+id/digitOne"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:textSize="32sp" />
+
+                <EditText
+                    android:id="@+id/digitTwo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:textSize="32sp" />
+
+                <EditText
+                    android:id="@+id/digitThree"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:textSize="32sp" />
+
+                <EditText
+                    android:id="@+id/digitFour"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLength="1"
+                    android:textAlignment="center"
+                    android:textSize="32sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnConfirm_popUpWindow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="110dp"
+                android:backgroundTint="@color/black"
+                android:text="CONFIRM" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".em_call_accepted">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/code_darkLight"
+        android:backgroundTint="@color/code_darkLight"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/code_dark"
+            android:backgroundTint="@color/Dark"
+            android:backgroundTintMode="screen">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="185dp"
+                android:background="@color/Gray">
+
+            </LinearLayout>
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/cc_exit_callbtn">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/latoregular"
+                    android:text="USERNAME"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="33sp">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="115dp"
+                    android:fontFamily="@font/latoregularitalic"
+                    android:gravity="left"
+                    android:text="DURATION CALL"
+                    android:textColor="@color/white"
+                    android:textSize="14sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="135dp"
+                    android:fontFamily="@font/latoregularitalic"
+                    android:gravity="left"
+                    android:text="00:00:00"
+                    android:textColor="@color/white"
+                    android:textSize="14sp">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/call_alert"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="260dp"
+                    android:fontFamily="@font/latoblackitalic"
+                    android:gravity="center"
+                    android:src="@drawable/main_logo_superfaded"
+                    android:textColor="@color/white"
+                    android:textSize="16sp">
+
+                </ImageView>
+
+                <!--<ImageView
+                    android:id="@+id/call_alert"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="330dp"
+                    android:src="@drawable/cc_alert_bellwhite">
+
+                </ImageView>!-->
+
+
+                <ImageView
+                    android:id="@+id/call_alert_red"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/call_alert"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/cc_end_call2">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/call_alert_red"
+                    android:fontFamily="@font/latoblackitalic"
+                    android:gravity="center"
+                    android:text="END CALL"
+                    android:textColor="@color/white"
+                    android:textSize="16sp">
+
+                </TextView>
+
+            </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

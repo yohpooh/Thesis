@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".em_call_connecting">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/code_darkLight"
+        android:backgroundTint="@color/code_red"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/small_logo_whitelbl">
+
+            </ImageView>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:fontFamily="@font/latoblack"
+                    android:text="@string/call_lbl1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="33sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="@font/latoregularitalic"
+                    android:gravity="center"
+                    android:text="This is an EMERGENCY CALL SOS ALERT ! "
+                    android:textColor="@color/white"
+                    android:textSize="16sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/call_alert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="275dp"
+                    android:fontFamily="@font/latoblackitalic"
+                    android:gravity="center"
+                    android:paddingBottom="100dp"
+                    android:text="RESPONSE IMMEDIATELY !"
+                    android:textColor="@color/white"
+                    android:textSize="16sp">
+
+                </TextView>
+
+                <!--<ImageView
+                    android:id="@+id/call_alert"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="330dp"
+                    android:src="@drawable/cc_alert_bellwhite">
+
+                </ImageView>!-->
+
+                <ImageView
+                    android:id="@+id/call_alert_green"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/call_alert"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="70dp"
+                    android:src="@drawable/cc_accept_call2">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="50dp"
+                    android:fontFamily="@font/latoblackitalic"
+                    android:gravity="center"
+                    android:paddingBottom="90dp"
+                    android:text="ACCEPT"
+                    android:textColor="@color/white"
+                    android:textSize="16sp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/call_alert"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="70dp"
+                    android:src="@drawable/cc_end_call2">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="50dp"
+                    android:fontFamily="@font/latoblackitalic"
+                    android:gravity="center"
+                    android:paddingBottom="90dp"
+                    android:text="DECLINE"
+                    android:textColor="@color/white"
+                    android:textSize="16sp">
+
+                </TextView>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context=".health_care">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="75dp"
+                android:text="SELECT TYPE OF HEALTHCARE"
+                android:textColor="@color/LightOrange31b"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:paddingTop="105dp"
+                android:text="@string/soc_ser_s"
+                android:textColor="@color/Gray"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:typeface="normal" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBack_healthCare_page1"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#00FFFFFF"
+            app:fabCustomSize="40dp"
+            app:icon="@drawable/ic_back_35dp"
+            app:iconTint="@color/LicensetoChill" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
+            android:gravity="center_vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            //rehab section
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:columnCount="1">
+
+                <LinearLayout
+                    android:id="@+id/btn_rehab"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/LicensetoChill"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/rehab_cc2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="REHABILITATION CENTERS"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                //counselling section
+
+                <LinearLayout
+                    android:id="@+id/btn_counselling"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/SuperLight_Light"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/counsel_cc2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="COUNSELLING"
+                        android:textAlignment="center"
+                        android:textColor="@color/LightDark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                //mental health clinics section
+
+                <LinearLayout
+                    android:id="@+id/btn_mental"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/superLightOrange31b"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/mental_cc1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="MENTAL HEALTH CLINICS"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                //support group section
+
+                <LinearLayout
+                    android:id="@+id/btn_sup_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill_horizontal"
+                    android:background="@color/SuperLight_Light"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/support_cc" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="SUPPORT GROUPS"
+                        android:textAlignment="center"
+                        android:textColor="@color/LightDark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                //bottom label
+
+                <TextView
+                    android:id="@+id/txtDes_comp_form1_pa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/soc_ser_s1"
+                    android:textAlignment="center"
+                    android:textColor="@color/Gray"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="normal" />
+            </GridLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context=".esh_4_guagua">
+
+
+    <Button
+        android:onClick="btn_bb4"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        app:fabCustomSize="40dp"
+        app:icon="@drawable/ic_back_35dp"
+        app:iconTint="@color/White" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="311dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="-30dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            android:layout_weight="1"
+            android:src="@drawable/mm_guagua_b1">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="50dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:columnCount="2">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="101dp"
+            android:background="@color/LightOrange31b"
+            android:gravity="left"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/pnp_logo" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mn_guagua" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:shadowColor="@color/DimGray"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="GUAGUA EMERGENCY HOTLINES"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="70dp"
+            android:background="@color/LightGrey"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:text="GUAGUA MUNICIPAL POLICE STATION"
+                android:textAlignment="center"
+                android:textColor="@color/Violet"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:text="Plaza Burgos Street, Guagua, Pampanga, 2003"
+                android:textAlignment="center"
+                android:textColor="@color/Gray"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="left"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:text="TELEPHONE DIRECTORY"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/DimGray" />
+        </LinearLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="335dp"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="left"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="+(045) 409 - 4420"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:textColor="@color/Gray" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="74dp"
+            android:layout_marginRight="110dp"
+            android:text="+(045) 901 - 0587"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColor="@color/Gray" />
+    </GridLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="left"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="+(63) 939-856-2997
+"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:textColor="@color/Gray" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="74dp"
+            android:layout_marginRight="100dp"
+            android:text="+(63) 926-663-6831"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColor="@color/Gray" />
+
+    </GridLayout>
+
+
+    //munisipyo layout
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="70dp"
+            android:background="@color/LightGrey"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:text="MUNICIPAL HALL OF GUAGUA"
+                android:textAlignment="center"
+                android:textColor="@color/Violet"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="445dp"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/mm_guagua_add"
+                android:textColor="@color/Gray"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="498dp"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="left"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:text="TELEPHONE DIRECTORY"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/DimGray" />
+        </LinearLayout>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="525dp"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="left"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="+(045) 970 - 1291"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:textColor="@color/Gray" />
+        </LinearLayout>
+    </GridLayout>
+    </RelativeLayout>>
+
+</RelativeLayout>
