@@ -6,5 +6,7 @@ Quarantine in every aspect helps stop the spread of the COVID-19 virus by stayin
 	With this, the proponents intend to propose an application that would be able to help the victims to report their current or experienced situation through the use of an emergency mobile app that can be a platform for abuse report, with an AI chatbot that can assess the initial filed report. In addition,  the system will have a direct hotline with the legal authority’s office that can dispatch a quick emergency rescue team. Also, a system that would be able to record and hold the data gathered from the reports
 //Todo: explain all your folders and what are they
 # Demo
-![Image Alt](https://github.com/yohpooh/Thesis/blob/b1b0d2c304693edb702e0c543a7233094ad5dd4a/College%20Thesis/%2331B%20Demo.mp4) 
+# Mobile Application Screenshots
+![One](https://github.com/user-attachments/assets/7e39f4d7-59b8-41f7-ac74-e6526872a8ac) ![Two](https://github.com/user-attachments/assets/d4b687f1-d197-47fa-b2f5-f6c68f959966) ![Three](https://github.com/user-attachments/assets/365f7900-4cd3-473f-bb06-f73b2ee1c082)
+
 //Todo: List all your files
