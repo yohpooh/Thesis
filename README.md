@@ -7,6 +7,9 @@ Quarantine in every aspect helps stop the spread of the COVID-19 virus by stayin
 //Todo: explain all your folders and what are they
 # Demo
 # Mobile Application Screenshots
-![One](https://github.com/user-attachments/assets/7e39f4d7-59b8-41f7-ac74-e6526872a8ac) ![Two](https://github.com/user-attachments/assets/d4b687f1-d197-47fa-b2f5-f6c68f959966) ![Three](https://github.com/user-attachments/assets/365f7900-4cd3-473f-bb06-f73b2ee1c082)
+![One](https://github.com/user-attachments/assets/7e39f4d7-59b8-41f7-ac74-e6526872a8ac) ![Three](https://github.com/user-attachments/assets/365f7900-4cd3-473f-bb06-f73b2ee1c082)
+
+# Website Application Demo
+https://github.com/user-attachments/assets/62261102-80b7-4b7b-87fb-92845854e93d
 
 //Todo: List all your files
